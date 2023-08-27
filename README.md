@@ -26,11 +26,12 @@ The code was tested with the following boards:
 * Sparkfun Thing Plus RP2040
 
 
+
 ## Connection 
 
 On many electricity meters, the MBUS is provided via an RJ12 Jack. The MBUS is brought out on pins 3 and 4. The two MBUS signals must be connected to the terminal block of the MBUS-Slave wing or shield. The polarity does not have to be taken into account since the MBUS on the slave has no polarity.
 
-![RJ12 Pinout]https://user-images.githubusercontent.com/3049858/263541267-3450de44-6f11-47fe-b2e2-5701e3a5a49e.png
+![RJ12 Pinout](https://user-images.githubusercontent.com/3049858/263541267-3450de44-6f11-47fe-b2e2-5701e3a5a49e.png)
 
 
 
