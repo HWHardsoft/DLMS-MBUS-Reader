@@ -26,6 +26,28 @@ The code was tested with the following boards:
 * Sparkfun Thing Plus RP2040
 
 
+## Connection 
+
+On many electricity meters, the MBUS is provided via an RJ12 Jack. The MBUS is brought out on pins 3 and 4. The two MBUS signals must be connected to the terminal block of the MBUS-Slave wing or shield. The polarity does not have to be taken into account since the MBUS on the slave has no polarity.
+
+![RJ12 Pinout]https://user-images.githubusercontent.com/3049858/263541267-3450de44-6f11-47fe-b2e2-5701e3a5a49e.png
+
+
+
+## Key
+
+The user data in the MBUS protocol is encrypted. For decryption you need a corresponding key from your energy supplier. The 16-byte key is usually provided as a hex string. This string must be stored as a byte array in the key.h file. 
+
+For example
+
+key from supplier: 36C66639E48A8CA4D6BC8B282A793BBB
+
+in key.h:
+
+static const unsigned char KEY[] = {0x36, 0xC6, 0x66, 0x39, 0xE4, 0x8A, 0x8C, 0xA4, 0xD6, 0xBC, 0x8B, 0x28, 0x2A, 0x79, 0x3B, 0xBB};
+
+
+
 ## Remarks
 
 The code was tested with Kaifa MA309M and Sagemcom T210-D (both data Lower Austria). In other countries and regions (e.g. Vorarlberg, Austria) the structure of the user data may differ and an adjustment of the program may be necessary.
