@@ -65,7 +65,7 @@ Install the following library through Arduino Library Manager
 
 ## Credits 
 
-Based on [ESP32/8266 Smartmeter decoder for Kaifa MA309M](https://github.com/FKW9/esp-smartmeter-netznoe/) code by FKW9, EIKSEUand others
+Based on [ESP32/8266 Smartmeter decoder for Kaifa MA309M](https://github.com/FKW9/esp-smartmeter-netznoe/) code by FKW9, EIKSEU and others
    
 
 
