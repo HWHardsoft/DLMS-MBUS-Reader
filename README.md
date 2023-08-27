@@ -9,7 +9,7 @@ Arduino MBUS Reader demo for electricity meters with DLMS COSEM interface (as th
 
 ## Hardware 
 
-Electricity meters with an MBUS interface include a rudimentary MBUS master. In order to be able to read the meter, an MBUS slave is required. I've used our MBUS Slave wing for feather borads and/or MBUS slave shield for Arduino MKR boards
+Electricity meters with an MBUS interface include a rudimentary MBUS master. In order to be able to read the meter, an MBUS slave is required. I've used our MBUS Slave wing for feather boards and/or MBUS slave shield for Arduino MKR boards
 
 ![MBUS Slave Wing](https://user-images.githubusercontent.com/3049858/263453697-6a00bde5-259d-4733-a12a-3dff900e32d1.jpg)  ![MBUS Slave shield for Arduino MKR](https://user-images.githubusercontent.com/3049858/263453696-eaf3f158-7afa-4ac2-a786-6002ce8581bb.jpg)
 
