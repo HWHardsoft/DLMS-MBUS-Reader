@@ -1,6 +1,6 @@
 # DLMS-MBUS-Reader
 
-Arduino MBUS Reader demo for electricity meters with DLMS COSEM interface (as they are common in Austria, for example). Demo code for our  MBUS slave Arduino MKR boards and Feather Boards (including ESP32, RP2040, nRF52840, Cortex M0 ....).
+Arduino MBUS Reader demo for electricity meters with DLMS COSEM interface (as they are common in Austria, for example). Demo code for our MBUS slave boards for Arduino MKR boards, Raspberry Pi Pico and Feather Boards (including ESP32, RP2040, nRF52840, Cortex M0 ....).
 
 
 ![Example Data output of an connected electricity meter](https://user-images.githubusercontent.com/3049858/263540720-a5ca355f-043a-423e-a036-43d0d01d43e5.jpg)
