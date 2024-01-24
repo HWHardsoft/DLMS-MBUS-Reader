@@ -31,6 +31,7 @@ The code was tested with the following boards:
 * Adafruit Feather M0 Express
 * Sparkfun ESP32 Thing Plus
 * Sparkfun Thing Plus RP2040
+* Raspberry Pi Pico
 
 
 
